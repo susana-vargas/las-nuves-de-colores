@@ -1,0 +1,20 @@
+.header {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    background-color: #FFE4E1;
+    border: #fff0f5;
+    padding: 10px;
+}
+.main {
+    display: flex;
+}
+
+.info {
+    text-align: center;
+    background-color: #e5e7eb;
+    padding: 50px;
+}
+.purple, .pink, .blue, .dark {
+    text-align: center;
+}
