@@ -2,19 +2,59 @@
     display: flex;
     list-style: none;
     justify-content: space-evenly;
-    background-color: #FFE4E1;
+    background-color: SeaShell;
     border: #fff0f5;
     padding: 10px;
+    font-size: 20px;
 }
 .main {
     display: flex;
 }
 
-.info {
-    text-align: center;
+.icon {
+    display: flex;
     background-color: #e5e7eb;
     padding: 50px;
+    align-items: center;
+    justify-content: center;
 }
 .purple, .pink, .blue, .dark {
     text-align: center;
+}
+
+
+body {
+    background-color:Azure;
+}
+
+p {
+ font-size: 35px;
+}
+
+h1 {
+    text-align: center;	
+}
+.icon img,
+.icon p {
+  margin: 20px;
+}
+
+.img {
+    display: flex;
+    justify-content: space-around;
+}
+
+h2 {
+    text-align: center;
+}
+.divimg {
+    width: 345px
+}
+
+.divimg img {
+    max-width: 100%; 
+    height: auto;
+}
+section {
+    background-color: #E6E6FA	;
 }
